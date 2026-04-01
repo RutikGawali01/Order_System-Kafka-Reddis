@@ -1,4 +1,4 @@
-package com.order_producer_service.entity;
+package com.order_consumer_service.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Order {
+public class OrderStatus {
     private String orderId;
-    private String productId;
-    private int quantity;
+    private String status; // PENDING, COMPLETED
 }

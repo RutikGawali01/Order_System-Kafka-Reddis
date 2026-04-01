@@ -1,4 +1,4 @@
-package com.order_producer_service.entity;
+package com.order_producer_service.entity; // SAME as producer
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
